@@ -1,0 +1,27 @@
+{
+  "adapter": "df-dataset-catalog-v1",
+  "files": {
+    "double-fetch vulnerability dataset-2018.xlsx": {
+      "bytes": 45893,
+      "sha256": "118a9df9ff4f96ed3f410bdce238ab541a1b8606042c97a42c6cc95f53f01e5b"
+    },
+    "double-fetch vulnerability dataset-2019.xlsx": {
+      "bytes": 50016,
+      "sha256": "5fb5b0ae750f6ee10cc66f84c8f5352bf37fd7d28d599e2a7dd76498c88712d8"
+    },
+    "double-fetch vulnerability dataset.xlsx": {
+      "bytes": 47268,
+      "sha256": "85ef799164b70a6ffacf057dc15b04a6b25ad53530abec45a9cc00e7ef6688e9"
+    }
+  },
+  "license_status": "no_explicit_upstream_license_at_pinned_commit_no_blanket_relicensing",
+  "model_input": "unavailable_until_independent_source_version_and_locations_are_bound",
+  "schema_version": 1,
+  "selected_workbook": "double-fetch vulnerability dataset-2019.xlsx",
+  "source_prose_redistributed": false,
+  "source_workbooks_modified": false,
+  "upstream": {
+    "commit": "ce9ec83d5902a7e132f573fb218d379fd4666c23",
+    "repository": "https://github.com/wpengfei/df_dataset"
+  }
+}
