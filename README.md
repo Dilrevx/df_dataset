@@ -1,8 +1,8 @@
 # Double fetch report dataset
 
-108 rows from the 2019 double-fetch catalogue. The two earlier workbooks are overlapping catalogue versions, not additional cases.
+108 primary rows from the 2019 double-fetch catalogue. The 91 earliest and 102 prior-2018 rows are separately identified historical report observations, including unmatched reports; they are not additional verified vulnerabilities or Recall labels.
 
-[Cases](dataset/cases.jsonl) and [manifest](dataset/manifest.json) are the data entry points. Descriptions, consequences, bulletins, reported versions/files and source citations are structured facts; all three original workbooks are preserved as hash-bound evidence. Reported filenames are not verified source coordinates.
+[Cases](dataset/cases.jsonl) and [manifest](dataset/manifest.json) are the data entry points. Each case links the shared typed report-observations catalogue and its own associations. Descriptions, consequences, bulletins, reported versions/files and citations are structured facts; all three original workbooks remain hash-bound evidence. Reported filenames are not verified source coordinates.
 
 From [embed](https://github.com/Dilrevx/embed/tree/spec-audit-ab):
 
