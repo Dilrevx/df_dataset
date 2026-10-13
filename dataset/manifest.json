@@ -1,0 +1,91 @@
+{
+  "assets": {
+    "1fac2c04c5203f47ae3da05f92d5079cf57eb245f7d55500bd9a30e8997d89f5": {
+      "bytes": 47268,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "0100727430d66ecf4d52b0566aec5bdadd8c81ae",
+          "path": "double-fetch vulnerability dataset.xlsx",
+          "repository": "https://github.com/Dilrevx/df_dataset",
+          "sha256": "85ef799164b70a6ffacf057dc15b04a6b25ad53530abec45a9cc00e7ef6688e9"
+        }
+      ],
+      "path": "assets/runtime/1fac2c04c5203f47ae3da05f92d5079cf57eb245f7d55500bd9a30e8997d89f5.xlsx",
+      "purpose": "evidence",
+      "sha256": "85ef799164b70a6ffacf057dc15b04a6b25ad53530abec45a9cc00e7ef6688e9"
+    },
+    "303009aca7486a0052223021ae38fa46478ae488e830438f3c3d33af9c1ac60f": {
+      "bytes": 50016,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "0100727430d66ecf4d52b0566aec5bdadd8c81ae",
+          "path": "double-fetch vulnerability dataset-2019.xlsx",
+          "repository": "https://github.com/Dilrevx/df_dataset",
+          "sha256": "5fb5b0ae750f6ee10cc66f84c8f5352bf37fd7d28d599e2a7dd76498c88712d8"
+        }
+      ],
+      "path": "assets/runtime/303009aca7486a0052223021ae38fa46478ae488e830438f3c3d33af9c1ac60f.xlsx",
+      "purpose": "evidence",
+      "sha256": "5fb5b0ae750f6ee10cc66f84c8f5352bf37fd7d28d599e2a7dd76498c88712d8"
+    },
+    "df43fff937a49353303bd3dd0afde78b2c8595582b90a0722ba5a589e6ebc337": {
+      "bytes": 45893,
+      "kind": "file",
+      "mode": "100644",
+      "origins": [
+        {
+          "commit": "0100727430d66ecf4d52b0566aec5bdadd8c81ae",
+          "path": "double-fetch vulnerability dataset-2018.xlsx",
+          "repository": "https://github.com/Dilrevx/df_dataset",
+          "sha256": "118a9df9ff4f96ed3f410bdce238ab541a1b8606042c97a42c6cc95f53f01e5b"
+        }
+      ],
+      "path": "assets/runtime/df43fff937a49353303bd3dd0afde78b2c8595582b90a0722ba5a589e6ebc337.xlsx",
+      "purpose": "evidence",
+      "sha256": "118a9df9ff4f96ed3f410bdce238ab541a1b8606042c97a42c6cc95f53f01e5b"
+    }
+  },
+  "benchmark_id": "df-dataset",
+  "cases": {
+    "path": "cases.jsonl",
+    "records": 108,
+    "sha256": "01818d460d5017570a78b8d3c521af8c90465bd9023b4ec75e27bff2077a740f"
+  },
+  "counts": {
+    "case_groups": 108,
+    "labels": 108,
+    "origins": {
+      "catalog": 108
+    },
+    "records": 108,
+    "splits": {
+      "unassigned": 108
+    },
+    "versions": 108
+  },
+  "importer_sha256": "c7ecac89c1b8108cf44600e4e249edc224775ecd7f4ada0e905bb3c3f17e7cc8",
+  "license": {
+    "assets": [],
+    "policy": "Original notices and target licenses remain unchanged; no blanket relicensing.",
+    "status": "unknown_no_explicit_upstream_license"
+  },
+  "origin": {
+    "adapter": "df-dataset-catalog-v1",
+    "commit": "0100727430d66ecf4d52b0566aec5bdadd8c81ae",
+    "files": {
+      "datasets/df-dataset/cases.jsonl": "53c609696265b06cb2a1b2b59160848cb1867ac6b6c40f6415aa17472506df30",
+      "datasets/df-dataset/source.json": "f84c4a288b071f37388d3471ddfd0169853fb1018a6450d6d9930500b5da60a4",
+      "datasets/df-dataset/summary.json": "d217e2ff922eaf677c7cee9de19f5cfa10070cb6029e3604e54f606ef56bf9a5",
+      "double-fetch vulnerability dataset-2018.xlsx": "118a9df9ff4f96ed3f410bdce238ab541a1b8606042c97a42c6cc95f53f01e5b",
+      "double-fetch vulnerability dataset-2019.xlsx": "5fb5b0ae750f6ee10cc66f84c8f5352bf37fd7d28d599e2a7dd76498c88712d8",
+      "double-fetch vulnerability dataset.xlsx": "85ef799164b70a6ffacf057dc15b04a6b25ad53530abec45a9cc00e7ef6688e9"
+    },
+    "repository": "https://github.com/Dilrevx/df_dataset"
+  },
+  "record_unit": "2019_catalog_rows_prior_workbooks_are_overlapping_versions",
+  "schema": "bench-dataset-v1"
+}
